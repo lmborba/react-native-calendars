@@ -48,6 +48,8 @@ export default function styleConstructor(theme={}) {
       opacity: 0,
       ...appStyle.dotStyle
     },
+    disabled: {
+    },
     visibleDot: {
       opacity: 1,
       backgroundColor: appStyle.dotColor
